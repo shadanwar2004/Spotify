@@ -363,3 +363,36 @@ text-decoration: underline;
         display: none;
     }
 }
+
+@media(max-width: 415px) {
+    .sidebar{
+        display: none;
+    }
+}
+@media(max-width: 415px) {
+    .card{
+        width: 80px;
+        border-radius: 0.2rem;
+        padding: 0.4rem;
+        margin-left: 0.5rem;
+        margin-top: 0.4rem;
+    }
+}
+
+@media(max-width: 415px) {
+    .card-title{
+        font-weight: 200;  
+    }
+}
+
+@media(max-width: 415px) {
+    .card-info{
+        display: none;
+    }
+}
+
+@media(max-width: 415px) {
+    .playback-bar{
+        display: none;
+    }
+}
