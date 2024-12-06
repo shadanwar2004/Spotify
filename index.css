@@ -359,8 +359,15 @@ text-decoration: underline;
 }
 
 @media(max-width: 600px) {
-    .album{
+    .singer{
         display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    .album-name{
+        width: 50px;
+        opacity: 0;
     }
 }
 
