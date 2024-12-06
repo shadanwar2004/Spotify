@@ -358,24 +358,30 @@ text-decoration: underline;
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 1130px) {
     .singer{
         display: none;
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 760px) {
     .album-name{
-        width: 50px;
-        opacity: 0;
+        display: none;
     }
 }
 
-@media(max-width: 415px) {
+@media(max-width: 600px) {
+    .album{
+        display: none;
+    }
+}
+
+@media(max-width: 575px) {
     .sidebar{
         display: none;
     }
 }
+
 @media(max-width: 415px) {
     .card{
         width: 80px;
